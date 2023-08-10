@@ -1,8 +1,8 @@
-const DetailsPage = ({ data }: { data: any }) => {
+const DetailsPage = ({ params }: any) => {
   return (
     <div>
       <h1>Details Page</h1>
-      <p>{data.title}</p>
+      <p>{params.id}</p>
     </div>
   );
 };

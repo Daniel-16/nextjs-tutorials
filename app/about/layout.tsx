@@ -1,7 +1,7 @@
 const AboutLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <div className="container mx-auto">
-      <h1 className="font-bold text-white text-4xl text-center mt-10">
+      <h1 className="font-bold text-white text-4xl text-center mt-10 hover:text-slate-600">
         About Layout
       </h1>
       {children}

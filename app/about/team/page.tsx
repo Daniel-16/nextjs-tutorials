@@ -13,7 +13,9 @@ const TeamPage = () => {
         voluptates officiis, amet ipsam earum tempore fugiat, tempora quae
         deleniti laboriosam nesciunt consectetur dolor illo deserunt possimus
         totam iure nam, accusamus similique. Accusantium, officia architecto
-        nobis nihil assumenda eligendi eum quas!
+        nobis nihil assumenda eligendi eum quas! Lorem, ipsum dolor sit amet
+        consectetur adipisicing elit. Illo quidem est veritatis nemo commodi
+        ipsum error nam eligendi praesentium voluptas.
       </p>
     </div>
   );

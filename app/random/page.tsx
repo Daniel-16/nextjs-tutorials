@@ -1,3 +1,5 @@
+import ApiButton from "../components/ApiButton";
+
 async function fetchData() {
   const response = await fetch("https://jsonplaceholder.typicode.com/posts/");
   await new Promise((resolve) => setTimeout(resolve, 5000));
@@ -6,7 +8,7 @@ async function fetchData() {
 
 const RandomData = async () => {
   const randomData = await fetchData();
-  //   console.log(randomData);
+  // console.log(randomData);
 
   return (
     <div className="container mx-auto">
@@ -19,6 +21,7 @@ const RandomData = async () => {
           <li key={data.id} className="mb-5 px-5 md:px-0">
             <h1 className="font-bold text-lg">{data.title}</h1>
             <p className="text-sm">{data.body}</p>
+            <ApiButton title={data.title} />
           </li>
         ))}
       </ul>

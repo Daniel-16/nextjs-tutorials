@@ -1,10 +1,9 @@
-const DetailsPage = ({ params }: any) => {
-  return (
-    <div>
-      <h1>Details Page</h1>
-      <p>{params.id}</p>
-    </div>
-  );
-};
+import Details from "@/app/components/Details";
 
-export default DetailsPage;
+export default function ReadMore({ params: { id } }: any) {
+  return (
+    <>
+      <Details id={id} />
+    </>
+  );
+}
